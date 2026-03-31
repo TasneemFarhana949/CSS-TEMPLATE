@@ -1,0 +1,140 @@
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #bfe3ee;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 30px;
+}
+
+.subtitle {
+    font-weight: bold;
+}
+
+h2 {
+    margin: 60px 0 20px;
+}
+
+
+.btn {
+    padding: 14px 32px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+.primary {
+    background-color: #0d6efd;
+}
+.primary:hover {
+    background-color: #0b5ed7;
+}
+
+.secondary {
+    background-color: #6c757d;
+}
+.secondary:hover {
+    background-color: #5c636a;
+}
+
+.success {
+    background-color: #28a745;
+}
+.success:hover {
+    background-color: #218838;
+}
+
+.danger {
+    background-color: #dc3545;
+}
+.danger:hover {
+    background-color: #bb2d3b;
+}
+
+
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 12px; 
+}
+
+.group-btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 30px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+
+    border-radius: 8px; 
+
+    transition: transform 0.15s ease; 
+}
+
+.group-btn:hover {
+    transform: scale(1.15);
+}
+
+
+
+
+.outline {
+    background: transparent;
+    border: 2px solid #0d6efd;
+    color: #0d6efd;
+}
+.outline:hover {
+    background-color: #0d6efd;
+    color: white;
+}
+
+
+.gradient {
+    background: linear-gradient(45deg, #ff7a18, #ffb347);
+}
+.gradient:hover {
+    transform: scale(1.08); 
+}
+
+
+.glass {
+    background: rgba(255, 255, 255, 0.35);
+    color: #333;
+    backdrop-filter: blur(6px);
+}
+.glass:hover {
+    background: rgba(255, 255, 255, 0.6);
+}
+
+
+.shadow {
+    background-color: white;
+    color: #333;
+}
+.shadow:hover {
+    transform: scale(1.08);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.rounded {
+    background-color: #6f42c1;
+    border-radius: 50px;
+}
+.rounded:hover {
+    background-color: #5a32a3;
+}
